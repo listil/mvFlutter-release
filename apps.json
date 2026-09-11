@@ -1,0 +1,29 @@
+{
+  "name": "mvFlutter-release",
+  "identifier": "com.melun.mvflutter.altstore-source",
+  "apps": [
+    {
+      "name": "MangaView",
+      "bundleIdentifier": "com.melun.mangaviewFlutter",
+      "developerName": "listil",
+      "subtitle": "Manga/webtoon reader (MVP)",
+      "localizedDescription": "Unofficial reader for a manga/webtoon mirror site family. No address is bundled - you enter a mirror URL on first run. MVP: home browsing, search, episode list, WebView reader.",
+      "version": "0.1.1",
+      "versionDate": "2026-09-11T15:22:52Z",
+      "downloadURL": "https://github.com/listil/mvFlutter-release/releases/download/v0.1.1/MangaView.ipa",
+      "size": 8217973,
+      "minOSVersion": "15.0",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "date": "2026-09-11T15:22:52Z",
+          "localizedDescription": "Reader top bar no longer overlaps the status bar and now slides fully out of sight on scroll. Home/search cards no longer overflow their grid cell on a two-line title. Known issue: cover art and reader images may fail to load on networks that SNI-filter the site's CDN; never run on a real iOS device yet.",
+          "downloadURL": "https://github.com/listil/mvFlutter-release/releases/download/v0.1.1/MangaView.ipa",
+          "size": 8217973,
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}

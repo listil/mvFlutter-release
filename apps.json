@@ -7,6 +7,7 @@
       "bundleIdentifier": "com.melun.mangaviewFlutter",
       "developerName": "listil",
       "subtitle": "Manga/webtoon reader (MVP)",
+      "iconURL": "https://raw.githubusercontent.com/listil/mvFlutter-release/main/icon.png",
       "localizedDescription": "Unofficial reader for a manga/webtoon mirror site family. No address is bundled - you enter a mirror URL on first run. Home browsing, title search with filters, favorites, recently read, episode list, and both a native and a WebView reader.",
       "version": "0.1.2",
       "versionDate": "2026-09-12T05:05:02Z",

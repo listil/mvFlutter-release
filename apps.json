@@ -7,13 +7,21 @@
       "bundleIdentifier": "com.melun.mangaviewFlutter",
       "developerName": "listil",
       "subtitle": "Manga/webtoon reader (MVP)",
-      "localizedDescription": "Unofficial reader for a manga/webtoon mirror site family. No address is bundled - you enter a mirror URL on first run. MVP: home browsing, search, episode list, WebView reader.",
-      "version": "0.1.1",
-      "versionDate": "2026-09-11T15:22:52Z",
-      "downloadURL": "https://github.com/listil/mvFlutter-release/releases/download/v0.1.1/MangaView.ipa",
-      "size": 8217973,
+      "localizedDescription": "Unofficial reader for a manga/webtoon mirror site family. No address is bundled - you enter a mirror URL on first run. Home browsing, title search with filters, favorites, recently read, episode list, and both a native and a WebView reader.",
+      "version": "0.1.2",
+      "versionDate": "2026-09-12T05:05:02Z",
+      "downloadURL": "https://github.com/listil/mvFlutter-release/releases/download/v0.1.2/MangaView.ipa",
+      "size": 8337426,
       "minOSVersion": "15.0",
       "versions": [
+        {
+          "version": "0.1.2",
+          "date": "2026-09-12T05:05:02Z",
+          "localizedDescription": "Adds advanced search filters (author, tag, publication, initial, weekday, platform, sort), a favorites screen, a recently-read list, a navigation drawer, a native image viewer alongside the WebView reader, and a captcha screen for when the mirror challenges a request. Fixes thumbnail loading and the Toki31 mirror's webtoon listing 404. Known issue: cover art and reader images may fail to load on networks that SNI-filter the site's CDN; still never run on a real iOS device.",
+          "downloadURL": "https://github.com/listil/mvFlutter-release/releases/download/v0.1.2/MangaView.ipa",
+          "size": 8337426,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.1.1",
           "date": "2026-09-11T15:22:52Z",
